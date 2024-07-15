@@ -1,9 +1,10 @@
 import "./App.css";
+import PdfViewer from "./components/pdfViewer";
 
 function App() {
   return (
     <div>
-      <h1> Hello</h1>
+      <PdfViewer />
     </div>
   );
 }
